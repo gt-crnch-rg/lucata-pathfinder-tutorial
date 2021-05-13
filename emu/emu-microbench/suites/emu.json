@@ -1,0 +1,25 @@
+[
+{
+    "benchmark": "global_stream",
+    "log2_num_elements" : 25,
+    "num_threads" : [128, 256, 512],
+    "spawn_mode" : ["serial_remote_spawn", "recursive_remote_spawn"],
+    "num_trials" : 10
+},
+{
+    "benchmark": "local_stream",
+    "log2_num_elements" : 25,
+    "num_threads" : [128, 256, 512],
+    "spawn_mode" : ["serial_spawn", "recursive_spawn"],
+    "num_trials" : 10
+},
+{
+    "benchmark": "pointer_chase",
+    "log2_num_elements" : 25,
+    "num_threads" : [128, 256, 512],
+    "block_size" : [1, 4, 16, 64, 256, 1024, 4096, 16384, 65536, 262144, 1048576, 4194304, 16777216],
+    "spawn_mode" : "serial_remote_spawn",
+    "sort_mode" : ["ordered", "intra_block_shuffle", "block_shuffle", "full_block_shuffle"],
+    "num_trials" : 10
+}
+]
