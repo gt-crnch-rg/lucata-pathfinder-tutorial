@@ -9,7 +9,7 @@ This tutorial is scheduled to run from **8:00 AM PDT (11:00 AM EDT) to 3:00 PM P
 | Time | Topic | Notes | Presenter | 
 | ------------- | -------------| -------------|-------------|
 | 8:00 AM PDT  | Overview and Introduction | Introduction to the Rogues Gallery Testbed and particulars for this tutorial | Jeff Young |
-| 8:30 | Introduction to the Lucata Pathfinder-S System |   | Janice McMahon |  
+| 8:20 | Introduction to the Lucata Pathfinder-S System |   | Janice McMahon |  
 | 9:00  | BREAK | | |  
 | 9:10 | Emu Workflow, Hello World, SpMV |   | Janice, Jeff |  
 | 10:00  | BREAK | | |  
