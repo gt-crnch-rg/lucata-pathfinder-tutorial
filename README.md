@@ -17,7 +17,7 @@ This tutorial is scheduled to run from **8:00 AM PDT (11:00 AM EDT) to 3:00 PM P
 | 11:00 | AFTERNOON LONGER BREAK   |   |  |  
 | 11:30 |  Hands-On Investigation with Emu Pathfinder |  Attendees will then test their new knowledge of the Emu system   |  |  
 | 12:00 | BREAK |   |  |  
-| 12:30 | Pathfinder use case - Wildebeest |   | Brian Page |  
+| 12:30 | Migrating Thread Use Case - Wildebeest |   | Brian Page |  
 | 1:00 | Near-memory Optimizations and Hands-On  |   |  |  
 | 2:00 | BREAK  |   |  |  
 | 2:10 | Discussion of future workflows  | We will discuss how users can use the Pathfinder with Scikit-Learn, GraphBLAS, Kokkos, and Open On-Demand in the near future  | Jeff |  
