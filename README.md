@@ -7,7 +7,7 @@
 This tutorial is scheduled to run from **8:00 AM PDT (11:00 AM EDT) to 3:00 PM PDT (6:00 PM EDT)**. We have listed the schedule here according to the PEARC schedule which is specified in PDT.
 
 | Time | Topic | Notes | Presenter | 
-| ------------- | -------------| -------------|
+| ------------- | -------------| -------------|-------------|
 | 8:00 AM PDT  | Overview and Introduction | Introduction to the Rogues Gallery Testbed and particulars for this tutorial | Jeff Young |
 | 8:30 | Introduction to the Lucata Pathfinder-S System |   | Janice McMahon |  
 | 9:00  | BREAK | | |  
