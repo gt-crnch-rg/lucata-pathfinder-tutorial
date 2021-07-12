@@ -16,7 +16,7 @@ This tutorial is scheduled to run from **8:00 AM PDT (11:00 AM EDT) to 3:00 PM P
 | 10:10 | Emu Profiling, Data replication  |   | Jason Riedy, Janice, Jeff |  
 | 11:00 | BREAK   |   |  |  
 | 11:10 |  Hands-On Investigation with Emu Pathfinder |  Attendees will then test their new knowledge of the Emu system   |  |  
-| 12:00 | BREAK |   |  |  
+| 12:00 | AFTERNOON LONGER BREAK |   |  |  
 | 12:30 | Pathfinder use case - Wildebeest |   | Brian Page |  
 | 1:00 | Near-memory Optimizations and Hands-On  |   |  |  
 | 2:00 | BREAK  |   |  |  
