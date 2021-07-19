@@ -1,16 +1,10 @@
 //saxpy-1d-workflow.c
-
-#include <stdio.h>
-#include <stdlib.h>
-
-//saxpy-1d-workflow.c
 #include <stdio.h>
 #include <stdlib.h>
 #include <cilk/cilk.h>
 
 //If x86 is specified use the x86 compatibility headers with Cilk; otherwise use the Lucata toolchain
 #ifdef X86
-  #include <stdio.h>
   #include "memoryweb_x86.h"
   #include <emu_c_utils.h>
 #else
