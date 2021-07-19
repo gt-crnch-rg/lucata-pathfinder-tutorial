@@ -9,9 +9,9 @@ This tutorial is scheduled to run from **8:00 AM PDT (11:00 AM EDT) to 3:00 PM P
 | Time | Topic | Notes | Presenter | 
 | ------------- | -------------| -------------|-------------|
 | 8:00 AM PDT  | Overview and Introduction [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/01_crnch_rogues_gallery_tutorial_intro.pdf) | Introduction to the Rogues Gallery Testbed and particulars for this tutorial  | Jeff Young |
-| 8:20 | Introduction to the Lucata Pathfinder-S System [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/00_Lucata_Pathfinder_Tutorial_Overview.pdf) | Notebook (NB) #1 | Janice McMahon |  
+| 8:20 | Introduction to the Lucata Pathfinder-S System [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/00_Lucata_Pathfinder_Tutorial_Overview.pdf) |  | Janice McMahon |  
 | 9:00  | BREAK | | |  
-| 9:10 | Programming Basics, SAXPY [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/01_Lucata_Pathfinder_Tutorial_Basics.pdf) | NB #2  | Jeff |  
+| 9:10 | Programming Basics, SAXPY [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/01_Lucata_Pathfinder_Tutorial_Basics.pdf) | Notebook (NB) #1, NB #2  | Jeff |  
 | 10:00  | BREAK | | |  
 | 10:10 | Workflow Discussion [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/02_Lucata_Pathfinder_Tutorial_Workflow.pdf) |  NB #3  | Jeff, Jason Riedy |  
 | 11:00 | AFTERNOON LONGER BREAK   |   |  |  
