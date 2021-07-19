@@ -9,28 +9,28 @@ This tutorial is scheduled to run from **8:00 AM PDT (11:00 AM EDT) to 3:00 PM P
 | Time | Topic | Notes | Presenter | 
 | ------------- | -------------| -------------|-------------|
 | 8:00 AM PDT  | Overview and Introduction | Introduction to the Rogues Gallery Testbed and particulars for this tutorial | Jeff Young |
-| 8:20 | Introduction to the Lucata Pathfinder-S System | Notebook (NB) #1 | Jim Light |  
+| 8:20 | Introduction to the Lucata Pathfinder-S System | Notebook (NB) #1 | Janice McMahon |  
 | 9:00  | BREAK | | |  
-| 9:10 | Programming Basics, SAXPY | NB #2  | Janice McMahon, Jeff |  
+| 9:10 | Programming Basics, SAXPY | NB #2  | Jeff |  
 | 10:00  | BREAK | | |  
-| 10:10 | Workflow Discussion |  NB #3  | Jason Riedy, Jeff |  
+| 10:10 | Workflow Discussion |  NB #3  | Jeff, Jason Riedy |  
 | 11:00 | AFTERNOON LONGER BREAK   |   |  |  
-| 11:40 | Hands-on Investigation  | NB #1-3 |  |  
+| 11:45 | Hands-on Investigation  | NB #1-3 |  |  
 | 12:20 | BREAK |  |  |  
 | 12:30 | Migrating Thread Use Case - Wildebeest |   | Brian Page |  
 | 1:00 | Profiling/Timing; Hands-on Investigation  | NB #4  | Jeff |  
 | 2:00 | BREAK  |   |  |  
-| 2:10 | GraphBLAS  | Discussion of how GraphBLAS can be used with the Pathfinder  | Jason  |  
+| 2:10 | GraphBLAS  | Discussion of how GraphBLAS can be used with the Pathfinder  | Jason |  
 | 2:40 | Wrap-up   |   | Jeff  |  
 
 ## Organizers:
 
 * Jeffrey Young, Semir Sarajlic, Will Powell - Georgia Institute of Technology
-* Jim Light, Janice McMahon, Jason Riedy - Lucata Corporation
+* Janice McMahon, Jason Riedy - Lucata Corporation
 * Brian Page - University of Notre Dame
 
 ## Technical Liasions
-* Jeff Valdez, Sam Jijina, Dheeraj Ramchandani - Georgia Institute of Technology
+* Aaron Jezghani, Jeff Valdez, Sam Jijina, Dheeraj Ramchandani - Georgia Institute of Technology
 
 ## Tutorial Overview
 The Rogues Gallery is a new experimental testbed hosted at Georgia Tech that is focused on tackling "rogue" architectures for the post-Moore era of computing including those in areas like high-performance, near-memory, neuromorphic, and quantum computing. More recently, the Rogues Gallery has been awarded an NSF grant to serve as a novel architecture testbed as part of the CISE Community Research Infrastructure (CCRI) program. This tutorial will provide an introduction to this new community resource and will focus on hands on development with the signature architecture, Lucata's newly designed Pathfinder-S.
