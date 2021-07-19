@@ -9,16 +9,16 @@ This tutorial is scheduled to run from **8:00 AM PDT (11:00 AM EDT) to 3:00 PM P
 | Time | Topic | Notes | Presenter | 
 | ------------- | -------------| -------------|-------------|
 | 8:00 AM PDT  | Overview and Introduction [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/01_crnch_rogues_gallery_tutorial_intro.pdf) | Introduction to the Rogues Gallery Testbed and particulars for this tutorial  | Jeff Young |
-| 8:20 | Introduction to the Lucata Pathfinder-S System [Slides](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/00_Lucata_Pathfinder_Tutorial_Overview.pdf) | Notebook (NB) #1 | Janice McMahon |  
+| 8:20 | Introduction to the Lucata Pathfinder-S System [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/00_Lucata_Pathfinder_Tutorial_Overview.pdf) | Notebook (NB) #1 | Janice McMahon |  
 | 9:00  | BREAK | | |  
-| 9:10 | Programming Basics, SAXPY [Slides](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/01_Lucata_Pathfinder_Tutorial_Basics.pdf) | NB #2  | Jeff |  
+| 9:10 | Programming Basics, SAXPY [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/01_Lucata_Pathfinder_Tutorial_Basics.pdf) | NB #2  | Jeff |  
 | 10:00  | BREAK | | |  
-| 10:10 | Workflow Discussion [Slides](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/02_Lucata_Pathfinder_Tutorial_Workflow.pdf) |  NB #3  | Jeff, Jason Riedy |  
+| 10:10 | Workflow Discussion [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/02_Lucata_Pathfinder_Tutorial_Workflow.pdf) |  NB #3  | Jeff, Jason Riedy |  
 | 11:00 | AFTERNOON LONGER BREAK   |   |  |  
 | 11:45 | Hands-on Investigation  | NB #1-3 |  |  
 | 12:20 | BREAK |  |  |  
 | 12:30 | Migrating Thread Use Case - Wildebeest |   | Brian Page |  
-| 1:00 | Profiling/Timing; Hands-on Investigation [Slides](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/03_Lucata_Pathfinder_Tutorial_Performance_Profiling.pdf) | NB #4  | Jeff |  
+| 1:00 | Profiling/Timing; Hands-on Investigation [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/03_Lucata_Pathfinder_Tutorial_Performance_Profiling.pdf) | NB #4  | Jeff |  
 | 2:00 | BREAK  |   |  |  
 | 2:10 | GraphBLAS  | Discussion of how GraphBLAS can be used with the Pathfinder  | Jason |  
 | 2:40 | Wrap-up   |   | Jeff  |  
