@@ -5,11 +5,11 @@ This directory contains sample code for you to walk through and run in one of tw
 For command-line execution, note that you will need to set your environment to get access to the tool binaries and libraries. On the CRNCH testbed, we run the following script to "source" our environment:
 ```
 [user_directory]$ . /tools/emu/pathfinder-sw/set-lucata-env.sh
-Lucata tools are added to current path from /tools/emu/pathfinder-sw/21.06
+Lucata tools are added to current path from /tools/emu/pathfinder-sw/22.02
 
 #Then you can use the Emu compiler and simulator
 [user_directory]$ which emu-cc
-/tools/emu/pathfinder-sw/21.06/bin/emu-cc
+/tools/emu/pathfinder-sw/22.02/bin/emu-cc
 ```
 
 ## Included Examples
