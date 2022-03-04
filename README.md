@@ -5,7 +5,7 @@ This repository is an extension of the 2021 PEARC tutorial and contains updated 
 This tutorial material was developed by Janice McMahon, formerly of Lucata, with help from Jeffrey Young for the notebooks. 
 
 ## Software Information
-This tutorial is geared towards using the 22.02 version of the Lucata programming framework. Please see the pprogramming manual (requires RG and GT account)](https://github.gatech.edu/crnch-rg/rg-lucata-pathfinder/blob/main/docs/pathfinder/Lucata-Pathfinder-Programming-Guide-v2.0.0-2202-tools.pdf) for more information. 
+This tutorial is geared towards using the 22.02 version of the Lucata programming framework. Please see the [programming manual (requires RG and GT account)](https://github.gatech.edu/crnch-rg/rg-lucata-pathfinder/blob/main/docs/pathfinder/Lucata-Pathfinder-Programming-Guide-v2.0.0-2202-tools.pdf) for more information. 
 
 ## Topics Covered
 
