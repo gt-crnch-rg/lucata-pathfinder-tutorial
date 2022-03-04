@@ -1,53 +1,19 @@
-# pearc-tutorial-2021
+# Lucata Pathfinder Tutorial
 
-<!--## https://github.com/crnch-rg/pearc-tutorial-2021/-->
+This repository is an extension of the 2021 PEARC tutorial and contains updated versions of the code and examples presented there. We suggest you follow along with the code notebooks.
 
-## Schedule:
+This tutorial material was developed by Janice McMahon, formerly of Lucata, with help from Jeffrey Young for the notebooks. 
 
-This tutorial is scheduled to run from **8:00 AM PDT (11:00 AM EDT) to 3:00 PM PDT (6:00 PM EDT)**. We have listed the schedule here according to the PEARC schedule which is specified in PDT.
+## Software Information
+This tutorial is geared towards using the 22.02 version of the Lucata programming framework. Please see the pprogramming manual (requires RG and GT account)](https://github.gatech.edu/crnch-rg/rg-lucata-pathfinder/blob/main/docs/pathfinder/Lucata-Pathfinder-Programming-Guide-v2.0.0-2202-tools.pdf) for more information. 
 
-| Time | Topic | Notes | Presenter | 
-| ------------- | -------------| -------------|-------------|
-| 8:00 AM PDT  | Overview and Introduction [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/01_crnch_rogues_gallery_tutorial_intro.pdf) | Introduction to the Rogues Gallery Testbed and particulars for this tutorial  | Jeff Young |
-| 8:20 | Introduction to the Lucata Pathfinder-S System [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/00_Lucata_Pathfinder_Tutorial_Overview.pdf) |  | Janice McMahon |  
-| 9:00  | BREAK | | |  
-| 9:10 | Programming Basics, SAXPY [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/01_Lucata_Pathfinder_Tutorial_Basics.pdf) | Notebook (NB) #1, NB #2  | Jeff |  
-| 10:00  | BREAK | | |  
-| 10:10 | Workflow Discussion [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/02_Lucata_Pathfinder_Tutorial_Workflow.pdf) |  NB #3  | Jeff, Jason Riedy |  
-| 11:00 | AFTERNOON LONGER BREAK   |   |  |  
-| 11:45 | Hands-on Investigation  | NB #1-3 |  |  
-| 12:20 | BREAK |  |  |  
-| 12:30 | Migrating Thread Use Case - Wildebeest |   | Brian Page |  
-| 1:00 | Profiling/Timing; Hands-on Investigation [[Slides]](https://github.com/gt-crnch-rg/pearc-tutorial-2021/blob/main/slides/lucata_tutorial/03_Lucata_Pathfinder_Tutorial_Performance_Profiling.pdf) | NB #4  | Jeff |  
-| 2:00 | BREAK  |   |  |  
-| 2:10 | GraphBLAS  | Discussion of how GraphBLAS can be used with the Pathfinder  | Jason |  
-| 2:40 | Wrap-up   |   | Jeff  |  
+## Topics Covered
 
-## Organizers:
-
-* Jeffrey Young, Semir Sarajlic, Will Powell - Georgia Institute of Technology
-* Janice McMahon, Jason Riedy - Lucata Corporation
-* Brian Page - University of Notre Dame
-
-## Technical Liasions
-* Aaron Jezghani, Jeff Valdez, Sam Jijina, Dheeraj Ramchandani - Georgia Institute of Technology
-
-## Tutorial Overview
-The Rogues Gallery is a new experimental testbed hosted at Georgia Tech that is focused on tackling "rogue" architectures for the post-Moore era of computing including those in areas like high-performance, near-memory, neuromorphic, and quantum computing. More recently, the Rogues Gallery has been awarded an NSF grant to serve as a novel architecture testbed as part of the CISE Community Research Infrastructure (CCRI) program. This tutorial will provide an introduction to this new community resource and will focus on hands on development with the signature architecture, Lucata's newly designed Pathfinder-S.
-
-This virtually hosted tutorial will present a brief overview of the Rogues Gallery testbed and how NSF researchers can access and utilize unique hardware in the neuromorphic, smart networking, HPC, and near memory spaces to carry out related research goals for CISE-oriented research. Attendees will have an opportunity to learn about and program for the Lucata Pathfinder-S system, a near-memory computing architecture for sparse applications that has applications for database operations, graph analytics, and machine-learning related techniques. We will provide and work through a set of demonstration codes and will provide details on potential workflows that users can explore after the tutorial. Attendees will have an opportunity to continue their investigation into using the Pathfinder-S by requesting a free account to access the Rogues Gallery at the end of the tutorial.
-
-To join, please sign up for the PEARC tutorials track. Our PEARC agenda link can be found [here](https://sched.co/kLmR).
-
- 
-## Login information
-Please join us using PEARC's Pathable system which will allow you to join a related Zoom session. You can post questions using the chat there or on our [CRNCH RG Slack](https://join.slack.com/t/gt-crnch-rg/shared_invite/zt-thaxo3ds-zyb26ZW~IjACwgE_dN7MBA).
-
-Attendees will use notebook.crnch.gatech.edu as the main point for this tutorial and will work through several examples using Jupyter notebooks there.
-
-## Mentioned resources
-* CRNCH Rogues Gallery - Request Access to this testbed [here](http://crnch.gatech.edu/request-rogues-access).
-* Wildebeest Repo
+1) Introduction to the Lucata Pathfinder-S System [[Slides]](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial/blob/main/slides/lucata_tutorial/00_Lucata_Pathfinder_Tutorial_Overview.pdf) | 
+2) Programming Basics, SAXPY [[Slides]](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial/blob/main/slides/lucata_tutorial/01_Lucata_Pathfinder_Tutorial_Basics.pdf) | Notebook (NB) #1, NB #2  | J
+3) Pathfinder Workflow Discussion [[Slides]](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial/blob/main/slides/lucata_tutorial/02_Lucata_Pathfinder_Tutorial_Workflow.pdf) |  NB #3  | Jeff, Jason Riedy |    
+4) Profiling/Timing; Hands-on Investigation [[Slides]](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial/blob/main/slides/lucata_tutorial/03_Lucata_Pathfinder_Tutorial_Performance_Profiling.pdf) 
+5) GraphBLAS Support - TBD
 
 ## Acknowledgments
-This tutorial is funded in part by NSF CNS #2016701, "Rogues Gallery: A Community Research Infrastructure for Post-Moore Computing". We are greatly appreciative of the assistance from Lucata for slides that we have included as well as general support and assistance in running this tutorial.
+This tutorial information is funded in part by NSF CNS #2016701, "Rogues Gallery: A Community Research Infrastructure for Post-Moore Computing". We are greatly appreciative of the assistance from Lucata for slides that we have included as well as general support and assistance in supporting the Pthfinder platform. 
