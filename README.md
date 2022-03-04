@@ -9,9 +9,9 @@ This tutorial is geared towards using the 22.02 version of the Lucata programmin
 
 ## Topics Covered
 
-1) Introduction to the Lucata Pathfinder-S System [[Slides]](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial/blob/main/slides/lucata_tutorial/00_Lucata_Pathfinder_Tutorial_Overview.pdf) | 
-2) Programming Basics, SAXPY [[Slides]](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial/blob/main/slides/lucata_tutorial/01_Lucata_Pathfinder_Tutorial_Basics.pdf) | Notebook (NB) #1, NB #2  | J
-3) Pathfinder Workflow Discussion [[Slides]](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial/blob/main/slides/lucata_tutorial/02_Lucata_Pathfinder_Tutorial_Workflow.pdf) |  NB #3  | Jeff, Jason Riedy |    
+1) Introduction to the Lucata Pathfinder-S System [[Slides]](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial/blob/main/slides/lucata_tutorial/00_Lucata_Pathfinder_Tutorial_Overview.pdf)  
+2) Programming Basics, SAXPY [[Slides]](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial/blob/main/slides/lucata_tutorial/01_Lucata_Pathfinder_Tutorial_Basics.pdf) - Notebook (NB) #1, NB #2 
+3) Pathfinder Workflow Discussion [[Slides]](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial/blob/main/slides/lucata_tutorial/02_Lucata_Pathfinder_Tutorial_Workflow.pdf) -   NB #3      
 4) Profiling/Timing; Hands-on Investigation [[Slides]](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial/blob/main/slides/lucata_tutorial/03_Lucata_Pathfinder_Tutorial_Performance_Profiling.pdf) 
 5) GraphBLAS Support - TBD
 
