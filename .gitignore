@@ -51,6 +51,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+*.mwx
 emu/hello-world.*
 !emu/hello-world.ipynb
 !emu/hello-world.pdf
