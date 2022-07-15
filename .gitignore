@@ -51,6 +51,12 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+*.mps
+*.csv
+*.uis
+*.tqd
+*.vsf
+*.cdc
 *.mwx
 emu/hello-world.*
 !emu/hello-world.ipynb
