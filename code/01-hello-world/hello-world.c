@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <cilk.h>
+#include <cilk/cilk.h>
 
-// These are Emu-specific.
-#include <memoryweb.h>
-#include <timing.h>
+// Emu-specific headers
+#include <memoryweb/memoryweb.h>
+#include <memoryweb/timing.h>
 
 static const char str[] = "Hello, world!";
 

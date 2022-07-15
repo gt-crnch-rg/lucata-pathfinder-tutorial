@@ -3,8 +3,8 @@
 #include <string.h>
 #include <cilk.h>
 
-#include <memoryweb.h>
-#include <timing.h>
+#include <memoryweb/memoryweb.h>
+#include <memoryweb/timing.h>
 
 const char str[] = "Hello, world!";
 
