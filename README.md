@@ -1,8 +1,13 @@
 # Lucata Pathfinder Tutorial
 
-This repository is an extension of the 2021 PEARC tutorial and contains updated versions of the code and examples presented there. We suggest you follow along with the code notebooks.
+This repository maintains the latest version of this tutorial. 
 
-This tutorial material was developed by Janice McMahon, formerly of Lucata, with help from Jeffrey Young for the notebooks. 
+
+## HPEC 2022 Tutorial Information
+
+Date: September 2022
+
+Please check back for more information!
 
 ## Software Information
 This tutorial is geared towards using the 22.02 version of the Lucata programming framework. Please see the [programming manual (requires RG and GT account)](https://github.gatech.edu/crnch-rg/rg-lucata-pathfinder/blob/main/docs/pathfinder/Lucata-Pathfinder-Programming-Guide-v2.0.0-2202-tools.pdf) for more information. 
@@ -17,3 +22,10 @@ This tutorial is geared towards using the 22.02 version of the Lucata programmin
 
 ## Acknowledgments
 This tutorial information is funded in part by NSF CNS #2016701, "Rogues Gallery: A Community Research Infrastructure for Post-Moore Computing". We are greatly appreciative of the assistance from Lucata for slides that we have included as well as general support and assistance in supporting the Pthfinder platform. 
+
+### Previous Versions of This Tutorial
+
+The initial version of the tutorial material was developed by Janice McMahon with help from Jeffrey Young for the notebooks. 
+
+* PEARC 2021
+* PEARC 2019
