@@ -27,5 +27,5 @@ This tutorial information is funded in part by NSF CNS #2016701, "Rogues Gallery
 
 The initial version of the tutorial material was developed by Janice McMahon with help from Jeffrey Young for the notebooks. 
 
-* PEARC 2021
+* [PEARC 2021](https://github.com/gt-crnch-rg/pearc-tutorial-2021)
 * PEARC 2019
