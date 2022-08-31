@@ -5,7 +5,7 @@ This repository maintains the latest version of this tutorial.
 
 ## HPEC 2022 Tutorial Information
 
-Date: September 2022
+**Date:** September 22nd 2022
 
 Please check back for more information!
 
