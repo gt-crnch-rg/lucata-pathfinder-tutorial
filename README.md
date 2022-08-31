@@ -5,9 +5,9 @@ This repository maintains the latest version of this tutorial.
 
 ## HPEC 2022 Tutorial Information
 
-**Date:** September 22nd 2022
-
-Please check back for more information!
+**Date/Time:** September 22nd
+* 12:15 to 3:45 PM EDT
+* [HPEC Preliminary Agenda](https://ieee-hpec.org/index.php/ieee-hpec-2022-prelim-agenda/)
 
 ## Software Information
 This tutorial is geared towards using the 22.02 version of the Lucata programming framework. Please see the [programming manual (requires RG and GT account)](https://github.gatech.edu/crnch-rg/rg-lucata-pathfinder/blob/main/docs/pathfinder/Lucata-Pathfinder-Programming-Guide-v2.0.0-2202-tools.pdf) for more information. 
