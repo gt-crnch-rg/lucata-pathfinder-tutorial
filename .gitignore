@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
 
+#Temp notebook files
+*.ipynb_checkpoints
+*.tex
+
 # Object files
 *.o
 *.ko
