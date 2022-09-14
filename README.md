@@ -44,7 +44,7 @@ that can be run on the Lucata Pathfinder-S system.
 used with novel architectures, including the Pathfinder-S system.
 
 #### Preliminary Agenda (May be tweaked slightly before the event)
-| **Time (All Times EDT) | **Topic**                                      |
+| **Time (All Times EDT)** | **Topic**                                      |
 | ---------------------- | ---------------------------------------------- |
 | 12:15                  | Overview and Introduction                      |
 | 12:35                  | Introduction to the Lucata Pathfinder-S System |
