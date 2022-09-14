@@ -1,16 +1,12 @@
 #Sample Makefile to demonstrate how to compile the Emu examples
 
-#Uncomment only one of these lines
-#Use the last stable toolchain
-#TOOLCHAIN=/tools/lucata/pathfinder-sw/current
-#Use the latest beta toolchain
-TOOLCHAIN=/tools/lucata/pathfinder-sw/22.09-beta
-
-INCLUDES=${TOOLCHAIN}/include/ 
-LIBPATH=${TOOLCHAIN}/lib
+#LUCATA_BASE gets set by the global .env file in the directory above
+INCLUDES=${LUCATA_BASE}/include/ 
+LIBPATH=${LUCATA_BASE}/lib
 LIBRARIES=-lmemoryweb
 
-all: hello-world-naive.mwx hello-world.mwx hello-world-spawn.mwx hello-world-spawn-at.mwx
+
+all: check-env hello-world-naive.mwx hello-world.mwx hello-world-spawn.mwx hello-world-spawn-at.mwx
 
 .PHONY: sim
 sim: hello-world-naive.tqd hello-world.tqd hello-world-spawn.tqd hello-world-spawn-at.tqd
@@ -29,6 +25,13 @@ clean:
 	rm -f *.mwx *.tqd *.cdc *.vsf *.mps; \
 	./helpers/backup_imgs.sh
 
+#Check to see if the right toolchain was set
+check-env:
+ifeq ($(LUCATA_BASE),)
+	@echo "No toolchain found! Remember to source the .env file with 'source ../.env"
+else
+	@echo "Using Lucata toolchain at $(LUCATA_BASE)."
+endif
 
 #Remove all non-source files
 reallyclean:
