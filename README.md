@@ -32,6 +32,10 @@ to use a 32-node Pathfinder system to execute HPC-relevant code examples. GraphB
 Pathfinder will be discussed, and attendees will have an opportunity to work through several benchmarks built
 for the Pathfinder using the latest GraphBLAS API.
 
+#### Tutorial Organizers
+* Jeffrey Young, Darryl Bailey, Srinivas Eswar, Aaron Jezghani, Patrick Lavin, Will Powell - Georgia Tech
+* Janice McMahon, Jason Riedy - Lucata Corporation
+
 #### Goals of this Tutorial
 * Attendees should understand HPC-relevant application spaces where graph analysis can be used to
 process large data sets, including ML applications, knowledge graphs, and emerging fields like drug
@@ -44,7 +48,7 @@ that can be run on the Lucata Pathfinder-S system.
 used with novel architectures, including the Pathfinder-S system.
 
 #### Preliminary Agenda (May be tweaked slightly before the event)
-| **Time (All Times EDT)** | **Topic**                                      |
+| **Time (All Times EDT)** | **Topic**                                    |
 | ---------------------- | ---------------------------------------------- |
 | 12:15                  | Overview and Introduction                      |
 | 12:35                  | Introduction to the Lucata Pathfinder-S System |
@@ -54,7 +58,7 @@ used with novel architectures, including the Pathfinder-S system.
 | 2:45                   | GraphBLAS                                      |
 | 3:25                   | Profiling/Timing; Hands-on Investigation       |
 | 3:45                   | Wrap-up                                        |
-
+| ---------------------- | ---------------------------------------------- |
 
 ## Software Information
 This tutorial is geared towards using the 22.02 version of the Lucata programming framework. Please see the [programming manual (requires RG and GT account)](https://github.gatech.edu/crnch-rg/rg-lucata-pathfinder/blob/main/docs/pathfinder/Lucata-Pathfinder-Programming-Guide-v2.0.0-2202-tools.pdf) for more information. 
