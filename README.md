@@ -9,7 +9,7 @@ This repository maintains the latest version of this tutorial.
 * 12:15 to 3:45 PM EDT
 * Held virtually via the HPEC video platform
 * [HPEC Preliminary Agenda](https://ieee-hpec.org/index.php/ieee-hpec-2022-prelim-agenda/)
-* HPEC provides a complementary registration category, so please join us! Select the "Exploring Graph Analysis for HPC with Near-Memory Accelerators" tutorial when registering, so we know how many attendees will join. 
+* HPEC provides a complementary registration category, so please join us! Select the “Exploring Graph Analysis for HPC with Near-Memory Accelerators” tutorial when registering, so we know how many attendees will join. 
 
 ### HPEC Tutorial Overview
 
@@ -61,7 +61,7 @@ This tutorial is geared towards using the 22.02 version of the Lucata programmin
 
 
 ## Acknowledgments
-This tutorial information is funded in part by NSF CNS #2016701, ["Rogues Gallery: A Community Research Infrastructure for Post-Moore Computing"](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2016701). We are greatly appreciative of the assistance from Lucata for slides that we have included as well as general support and assistance in supporting the Pathfinder platform.
+This tutorial information is funded in part by NSF CNS #2016701, [“Rogues Gallery: A Community Research Infrastructure for Post-Moore Computing”](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2016701). We are greatly appreciative of the assistance from Lucata for slides that we have included as well as general support and assistance in supporting the Pathfinder platform.
 
 ### Previous Versions of This Tutorial
 
