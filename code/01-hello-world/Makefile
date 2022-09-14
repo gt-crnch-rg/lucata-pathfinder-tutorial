@@ -29,7 +29,7 @@ test:  hello-world-naive.mwx
 
 .PHONY: clean
 clean:
-	rm -f *.mwx *.tqd *.cdc *.vsf *.mps; \
+	rm -f *.mwx *.tqd *.cdc *.vsf *.mps *.uis; \
 	./helpers/backup_imgs.sh
 
 #Check to see if the right toolchain was set
