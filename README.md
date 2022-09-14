@@ -16,18 +16,19 @@ This repository maintains the latest version of this tutorial.
 #### Abstract
 The growth of applications related to machine learning, drug discovery for precision medicine, and knowledge
 graphs has led to a surge in the usage of graph analysis concepts with high-performance computing platforms. At
-the same time, the development of recent APIs like GraphBLAS have introduced the concept of using “traditional”
+the same time, recent APIs like [GraphBLAS](https://graphblas.org/) have introduced the concept of using “traditional”
 linear algebra operators to work with large data sets represented as graphs.
 
-This tutorial focuses on both an introduction to the concept of near-memory hardware accelerators to support
+This tutorial provides both an introduction to the concept of near-memory hardware accelerators to support
 high-performance graph analytics as well as an in-depth hands-on session with one specific near-memory
-accelerator architecture, the Lucata Pathfinder-S. Near-memory architectures like the Pathfinderare well-suited 
+accelerator architecture, the [Lucata Pathfinder-S](https://lucata.com/solutions/pathfinder/).
+Near-memory architectures like the Pathfinder are well-suited
 for graph analytics due to their focus on keeping computation very close to data. This strategy reduces 
 performance penalties commonly associated with traversing graphs or
 other sparse data structures.
 
 Attendees will learn about possible use cases for graph analytics for HPC applications, and they will be able
-to use a 32 node Pathfinder system to execute HPC-relevant code examples. GraphBLAS support for the
+to use a 32-node Pathfinder system to execute HPC-relevant code examples. GraphBLAS support for the
 Pathfinder will be discussed, and attendees will have an opportunity to work through several benchmarks built
 for the Pathfinder using the latest GraphBLAS API.
 
@@ -60,7 +61,7 @@ This tutorial is geared towards using the 22.02 version of the Lucata programmin
 
 
 ## Acknowledgments
-This tutorial information is funded in part by NSF CNS #2016701, "Rogues Gallery: A Community Research Infrastructure for Post-Moore Computing". We are greatly appreciative of the assistance from Lucata for slides that we have included as well as general support and assistance in supporting the Pthfinder platform. 
+This tutorial information is funded in part by NSF CNS #2016701, ["Rogues Gallery: A Community Research Infrastructure for Post-Moore Computing"](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2016701). We are greatly appreciative of the assistance from Lucata for slides that we have included as well as general support and assistance in supporting the Pathfinder platform.
 
 ### Previous Versions of This Tutorial
 
