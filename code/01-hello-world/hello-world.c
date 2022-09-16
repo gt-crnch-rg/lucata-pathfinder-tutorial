@@ -24,9 +24,9 @@ int main (void)
      mw_replicated_init ((long*)&str_out, (long)malloc (n * sizeof (char)));
 
      starttiming(); // For the simulator.  Start gathering stats here.
-     lu_profile_perfcntr(PFC_CLEAR, "SIMPLE ARRAY SUM CLEARING COUNTERS");
-     lu_profile_perfcntr(PFC_READ, "SIMPLE ARRAY SUM READING COUNTERS AFTER CLEARING");
-     lu_profile_perfcntr(PFC_START, "SIMPLE ARRAY SUM STARTING COUNTERS");
+     lu_profile_perfcntr(PFC_CLEAR, "HELLO WORLD CLEARING COUNTERS");
+     lu_profile_perfcntr(PFC_READ, "HELLO WORLD READING COUNTERS AFTER CLEARING");
+     lu_profile_perfcntr(PFC_START, "HELLO WORLD STARTING COUNTERS");
 
      for (long k = 0; k < n; ++k)
           ptr[k] = (long)str[k]; // Remote writes
@@ -36,6 +36,7 @@ int main (void)
 
      printf("%s\n", str_out);  // Migration back
 
-     lu_profile_perfcntr(PFC_STOP, "SIMPLE ARRAY SUM STOPPING COUNTERS AT END");
+     lu_profile_perfcntr(PFC_STOP, "HELLO WORLD STOPPING COUNTERS AT END");
+    
      return 0;
 }

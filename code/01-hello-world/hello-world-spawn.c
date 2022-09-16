@@ -21,7 +21,10 @@ int main (void)
      mw_replicated_init ((long*)&str_out, (long)malloc (n * sizeof (char)));
 
      starttiming();
-
+     lu_profile_perfcntr(PFC_CLEAR, "HELLO WORLD SPAWN CLEARING COUNTERS");
+     lu_profile_perfcntr(PFC_READ, "HELLO WORLD SPAWN READING COUNTERS AFTER CLEARING");
+     lu_profile_perfcntr(PFC_START, "HELLO WORLD SPAWN STARTING COUNTERS");
+    
      for (long k = 0; k < n; ++k)
           ptr[k] = (long)str[k]; // Remote writes
 
@@ -31,4 +34,7 @@ int main (void)
      cilk_sync;
 
      printf("%s\n", str_out);  // Migration back
+     lu_profile_perfcntr(PFC_STOP, "HELLO WORLD SPAWN STOPPING COUNTERS AT END");
+    
+     return 0;
 }
