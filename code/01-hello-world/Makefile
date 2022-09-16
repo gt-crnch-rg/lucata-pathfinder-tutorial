@@ -6,30 +6,25 @@ LIBPATH=${LUCATA_BASE}/lib
 LIBRARIES=-lmemoryweb
 
 #You can change this string to plot different applications
-PLOTSRC=hello-world
+TESTSRC=hello-world
 
 all: check-env hello-world-naive.mwx hello-world.mwx hello-world-spawn.mwx hello-world-spawn-at.mwx
 
 .PHONY: sim
 sim: hello-world-naive.tqd hello-world.tqd hello-world-spawn.tqd hello-world-spawn-at.tqd
 
-plots:  $(PLOTSRC).tqd $(PLOTSRC).mps $(PLOTSRC).uis
-	make_tqd_plots.py $(PLOTSRC).tqd
-	make_map_plots.py $(PLOTSRC).mps
-	make_uis_plots.py $(PLOTSRC).uis
+profile: ${TESTSRC}.mwx
+	emusim_profile profile_${TESTSRC} --total_nodes 2 -m 24 -- $<
 
 %.mwx: %.c
 	emu-cc -o $@ -I${INCLUDES} -L${LIBPATH} ${LIBRARIES} $<
-
-%.tqd %.mps: %.mwx
-	emusim.x --capture_timing_queues --output_instruction_count --total_nodes 2 -m 24 -- $<
 
 test:  hello-world-naive.mwx
 	emusim.x --total_nodes 2 -m 24 -- $<
 
 .PHONY: clean
 clean:
-	rm -f *.mwx *.tqd *.cdc *.vsf *.mps *.uis; \
+	rm -f *.mwx *.tqd *.cdc *.vsf *.mps *.uis *.csv; \
 	./helpers/backup_imgs.sh
 
 #Check to see if the right toolchain was set
@@ -42,4 +37,4 @@ endif
 
 #Remove all non-source files
 reallyclean:
-	rm -rf *.mwx *.tqd *.cdc *.vsf *.mps figs
+	rm -rf *.mwx *.tqd *.cdc *.vsf *.mps *.uis *.csv figs
