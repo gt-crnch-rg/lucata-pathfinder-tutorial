@@ -25,7 +25,7 @@ int main (void)
 
      // starttiming(); // Deprecated
      lu_profile_perfcntr(PFC_CLEAR, "HELLO WORLD CLEARING COUNTERS");
-     lu_profile_perfcntr(PFC_READ, "HELLO WORLD READING COUNTERS AFTER CLEARING");
+     //lu_profile_perfcntr(PFC_READ, "HELLO WORLD READING COUNTERS AFTER CLEARING");
      lu_profile_perfcntr(PFC_START, "HELLO WORLD STARTING COUNTERS");
 
      for (long k = 0; k < n; ++k)

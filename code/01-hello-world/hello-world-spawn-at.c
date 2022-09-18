@@ -22,7 +22,7 @@ int main (void)
 
      // starttiming(); Deprecated
      lu_profile_perfcntr(PFC_CLEAR, "HELLO WORLD SPAWN AT CLEARING COUNTERS");
-     lu_profile_perfcntr(PFC_READ, "HELLO WORLD SPAWN AT READING COUNTERS AFTER CLEARING");
+     //lu_profile_perfcntr(PFC_READ, "HELLO WORLD SPAWN AT READING COUNTERS AFTER CLEARING");
      lu_profile_perfcntr(PFC_START, "HELLO WORLD SPAWN AT STARTING COUNTERS");
 
      for (long k = 0; k < n; ++k)

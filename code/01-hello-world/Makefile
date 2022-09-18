@@ -37,4 +37,4 @@ endif
 
 #Remove all non-source files
 reallyclean:
-	rm -rf *.mwx *.tqd *.cdc *.vsf *.mps *.uis *.csv *.hpc figs
+	rm -rf *.mwx *.tqd *.cdc *.vsf *.mps *.uis *.csv *.hpc figs profile_${TESTSRC}/*;
