@@ -20,7 +20,7 @@ int main (void)
      mw_replicated_init ((long*)&ptr, (long)mw_malloc1dlong (n));
      mw_replicated_init ((long*)&str_out, (long)malloc (n * sizeof (char)));
 
-     starttiming();
+     // starttiming(); Deprecated
      lu_profile_perfcntr(PFC_CLEAR, "HELLO WORLD SPAWN CLEARING COUNTERS");
      lu_profile_perfcntr(PFC_READ, "HELLO WORLD SPAWN READING COUNTERS AFTER CLEARING");
      lu_profile_perfcntr(PFC_START, "HELLO WORLD SPAWN STARTING COUNTERS");
