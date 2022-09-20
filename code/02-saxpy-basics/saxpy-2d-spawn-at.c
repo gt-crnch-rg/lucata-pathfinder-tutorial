@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <cilk/cilk.h>
-#include <memoryweb.h>
+#include <memoryweb/memoryweb.h>
+#include <memoryweb/timing.h>
 
 void saxpy(long n, float a, float *x, float *y)
 {
@@ -21,10 +22,15 @@ int main(int argc, char **argv)
       x[j][i] = j * size + i; y[j][i] = 0;
     }
   }
-  
+
+  lu_profile_perfcntr(PFC_CLEAR, "CLEAR COUNTERS");
+  lu_profile_perfcntr(PFC_START, "START COUNTERS");
+
   for (long i = 0; i < num; i++) {
     cilk_spawn_at (y[i]) saxpy(size, aval, x[i], y[i]);
   }
   cilk_sync;
+
+  lu_profile_perfcntr(PFC_STOP, "STOP COUNTERS");
 }
 
