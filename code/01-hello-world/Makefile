@@ -24,7 +24,7 @@ test:  hello-world-naive.mwx
 
 .PHONY: clean
 clean:
-	rm -f *.mwx *.tqd *.cdc *.vsf *.mps *.uis *.csv; \
+	rm -f *.mwx *.tqd *.cdc *.vsf *.mps *.uis *.csv *.hpc; \
 	./helpers/backup_imgs.sh
 
 #Check to see if the right toolchain was set
@@ -37,4 +37,4 @@ endif
 
 #Remove all non-source files
 reallyclean:
-	rm -rf *.mwx *.tqd *.cdc *.vsf *.mps *.uis *.csv figs
+	rm -rf *.mwx *.tqd *.cdc *.vsf *.mps *.uis *.csv *.hpc figs profile_${TESTSRC}/*;
