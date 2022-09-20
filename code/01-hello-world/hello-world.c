@@ -23,7 +23,10 @@ int main (void)
      mw_replicated_init ((long*)&ptr, (long)mw_malloc1dlong (n));
      mw_replicated_init ((long*)&str_out, (long)malloc (n * sizeof (char)));
 
-     starttiming(); // For the simulator.  Start gathering stats here.
+     // starttiming(); // Deprecated
+     lu_profile_perfcntr(PFC_CLEAR, "HELLO WORLD CLEARING COUNTERS");
+     //lu_profile_perfcntr(PFC_READ, "HELLO WORLD READING COUNTERS AFTER CLEARING");
+     lu_profile_perfcntr(PFC_START, "HELLO WORLD STARTING COUNTERS");
 
      for (long k = 0; k < n; ++k)
           ptr[k] = (long)str[k]; // Remote writes
@@ -32,4 +35,8 @@ int main (void)
           str_out[k] = (char)ptr[k]; // Migration and remote write
 
      printf("%s\n", str_out);  // Migration back
+
+     lu_profile_perfcntr(PFC_STOP, "HELLO WORLD STOPPING COUNTERS AT END");
+    
+     return 0;
 }

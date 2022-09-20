@@ -1,7 +1,7 @@
 //saxpy-1d-workflow.c
 #include <stdio.h>
 #include <stdlib.h>
-#include <cilk/cilk.h>
+#include <cilk.h>
 
 //If x86 is specified use the x86 compatibility headers with Cilk; otherwise use the Lucata toolchain
 #ifdef X86
