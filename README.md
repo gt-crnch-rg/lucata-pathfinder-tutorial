@@ -43,16 +43,16 @@ that can be run on the Lucata Pathfinder-S system.
 used with novel architectures, including the Pathfinder-S system.
 
 #### Preliminary Agenda (May be tweaked slightly before the event)
-| **Time (All Times EDT) | **Topic**                                      |
-| ---------------------- | ---------------------------------------------- |
-| 12:15                  | Overview and Introduction                      |
-| 12:35                  | Introduction to the Lucata Pathfinder-S System |
-| 1:00                   | Programming Basics, SAXPY                      |
-| 1:45                   | **BREAK**                                      |
-| 2:15                   | Workflow Discussion                            |
-| 2:45                   | GraphBLAS                                      |
-| 3:25                   | Profiling/Timing; Hands-on Investigation       |
-| 3:45                   | Wrap-up                                        |
+| **Time (All Times EDT) | **Topic**                                      | Presenters | Notes                                      |
+| ---------------------- | ---------------------------------------------- | ---------- | ------------------------------------------ |
+| 12:15                  | Overview and Introduction                      | Jeff Young | [Slides]()                                     |
+| 12:35                  | Introduction to the Lucata Pathfinder-S System | Janice     | [Slides]()                                     |
+| 1:00                   | Programming Basics, SAXPY                      | Jeff       | [Slides]() [NB #1](), [NB #2](), [NB #3]() |
+| 1:45                   | **BREAK**                                      |            |                                            |
+| 2:15                   | Workflow Discussion                            | Jeff       | [Slides]() [NB #4]()                       |
+| 2:45                   | GraphBLAS                                      | Jason      | [Slides]() [NB #6]()                       |
+| 3:25                   | Profiling/Timing; Hands-on Investigation       | Jeff       | [Slides]() [NB #5]()                       |
+| 3:45                   | Wrap-up                                        | -          |                                            |
 
 ### Hands On Portion of the Tutorial
 Please see the [Tutorial Instructions](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial/blob/ee29508201016029bff1cc9819d85bdaaca3fad1/Tutorial-Instructions.md) for specific details on how to access the notebooks hosted here under the `code` folder.
