@@ -14,7 +14,7 @@ OR
 ### Jupyter Notebook Login
 We suggest that you use the Jupyter notebook interface to get started with the Pathfinder and then shift to using the terminal as you feel more comfortable. 
 
-1) Log into [rg-ood.crnch.gatech.edu](rg-ood.crnch.gatech.edu) with your GT username and password. For a tutorial, this will be provided to you along with a temporary password.
+1) Log into [rg-ood.crnch.gatech.edu](https://rg-ood.crnch.gatech.edu) with your GT username and password. For a tutorial, this will be provided to you along with a temporary password.
     - Select the “Jupyter Notebook” under Near-Memory Apps.
 
 ![RG OOD login](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial/blob/3f9fe71688842bbb05eccfa87dca145700de301e/code/resources/figs/rg_ood_login.png "RG OOD Login")
