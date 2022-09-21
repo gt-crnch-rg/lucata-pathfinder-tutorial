@@ -26,12 +26,20 @@ int main(int argc, char **argv)
     }
   }
   
+  lu_profile_perfcntr(PFC_CLEAR, "CLEAR COUNTERS");
+  lu_profile_perfcntr(PFC_START, "START COUNTERS");
+  
+  //Set a timing hook for simulation
   hooks_region_begin("example");
   for (long i = 0; i < num; i++) {
     cilk_spawn_at (y[i]) saxpy(size, aval, x[i], y[i]);
   }
   cilk_sync;
-    
+	
+  //Measure the simulated time at the end of the region
   double time_ms = hooks_region_end();
+
+  lu_profile_perfcntr(PFC_STOP, "STOP COUNTERS");
+  
   printf("time (ms) = %lf\n", time_ms);
 }
