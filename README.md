@@ -58,7 +58,7 @@ used with novel architectures, including the Pathfinder-S system.
 | 2:45                   | GraphBLAS                                      |
 | 3:25                   | Profiling/Timing; Hands-on Investigation       |
 | 3:45                   | Wrap-up                                        |
-| ---------------------- | ---------------------------------------------- |
+
 
 ## Software Information
 This tutorial is geared towards using the 22.02 version of the Lucata programming framework. Please see the [programming manual (requires RG and GT account)](https://github.gatech.edu/crnch-rg/rg-lucata-pathfinder/blob/main/docs/pathfinder/Lucata-Pathfinder-Programming-Guide-v2.0.0-2202-tools.pdf) for more information. 
