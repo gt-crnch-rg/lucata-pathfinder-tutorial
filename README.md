@@ -33,8 +33,9 @@ Pathfinder will be discussed, and attendees will have an opportunity to work thr
 for the Pathfinder using the latest GraphBLAS API.
 
 #### Tutorial Organizers
-* Jeffrey Young, Darryl Bailey, Srinivas Eswar, Aaron Jezghani, Patrick Lavin, Will Powell - Georgia Tech
+* Jeffrey Young, Darryl Bailey, Aaron Jezghani, Patrick Lavin, Will Powell - Georgia Tech
 * Janice McMahon, Jason Riedy - Lucata Corporation
+* Srinivas Eswar - Argonne National Lab
 
 #### Goals of this Tutorial
 * Attendees should understand HPC-relevant application spaces where graph analysis can be used to
