@@ -5,7 +5,7 @@ INCLUDES=${LUCATA_BASE}/include/memoryweb
 LIBPATH=${LUCATA_BASE}/lib
 LIBRARIES=-lemu_c_utils -lmemoryweb
 
-all: timing-hooks-saxpy.mwx
+all: timing-hooks-saxpy.mwx array-sum-hw-profiling.mwx 
 
 .PHONY: sim
 sim: timing-hooks-saxpy.tqd
@@ -14,7 +14,7 @@ sim: timing-hooks-saxpy.tqd
 	emu-cc -o $@ -I${INCLUDES} -L${LIBPATH} ${LIBRARIES} $<
 
 %.tqd: %.mwx
-	emusim.x --capture_timing_queues --total_nodes 2 -m 24 -- $<
+	emusim.x --total_nodes 2 -m 24 -- $<
 
 .PHONY: clean
 clean:

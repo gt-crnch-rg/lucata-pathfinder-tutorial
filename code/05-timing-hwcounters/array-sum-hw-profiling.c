@@ -40,7 +40,6 @@ int main(int argc, char **argv)
     }
   }
 
-  starttiming();
   lu_profile_perfcntr(PFC_CLEAR, "CLEAR COUNTERS");
   lu_profile_perfcntr(PFC_READ, "READ COUNTERS AFTER CLEAR");
   lu_profile_perfcntr(PFC_START, "START COUNTERS");
