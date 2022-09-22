@@ -8,10 +8,10 @@ LIBRARIES=-lmemoryweb
 #You can change this string to plot different applications
 TESTSRC=hello-world-spawn
 
-all: check-env hello-world-naive.mwx hello-world.mwx hello-world-spawn.mwx hello-world-spawn-at.mwx
+all: check-env hello-world.mwx hello-world-spawn.mwx hello-world-spawn-at.mwx
 
 .PHONY: sim
-sim: hello-world-naive.tqd hello-world.tqd hello-world-spawn.tqd hello-world-spawn-at.tqd
+sim: hello-world-spawn.tqd hello-world-spawn.tqd hello-world-spawn-at.tqd
 
 profile: ${TESTSRC}.mwx
 	emusim_profile profile_${TESTSRC} --total_nodes 2 -m 24 -- $<
@@ -19,7 +19,7 @@ profile: ${TESTSRC}.mwx
 %.mwx: %.c
 	emu-cc -o $@ -I${INCLUDES} -L${LIBPATH} ${LIBRARIES} $<
 
-test:  hello-world-naive.mwx
+test:  ${TESTSRC}.mwx
 	emusim.x --total_nodes 2 -m 24 -- $<
 
 .PHONY: clean
