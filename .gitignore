@@ -62,6 +62,8 @@ dkms.conf
 *.vsf
 *.cdc
 *.mwx
+*.hpc
+profile_*
 emu/hello-world.*
 !emu/hello-world.ipynb
 !emu/hello-world.pdf
