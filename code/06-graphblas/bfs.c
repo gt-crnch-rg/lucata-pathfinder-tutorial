@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <GraphBLAS.h>
 
 int bfs(GrB_Vector *level,

@@ -1,11 +1,5 @@
 #include <GraphBLAS.h>
 
-#if defined(__cilk)
-#include <cilk/cilk.h>
-#else
-#define cilk_for for
-#endif
-
 extern void degree_pseudoinv(GrB_Vector* v, GrB_Matrix A);
 extern void scale_vector(GrB_Vector v, double scl);
 
