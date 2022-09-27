@@ -2,6 +2,9 @@
 
 This repository maintains the latest version of this tutorial. 
 
+Please cite this tutorial using the following Zenodo DOI information:
+[![DOI](https://zenodo.org/badge/465934317.svg)](https://zenodo.org/badge/latestdoi/465934317)
+
 
 ## HPEC 2022 Tutorial Information
 
