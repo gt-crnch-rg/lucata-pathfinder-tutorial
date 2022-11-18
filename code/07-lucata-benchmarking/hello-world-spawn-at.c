@@ -6,7 +6,7 @@
 #include <memoryweb/memoryweb.h>
 #include <memoryweb/timing.h>
 
-const char str[] = "Hello, world!";
+static const char str[] = "Hello, world!";
 
 static inline void copy_ptr (char *pc, const long *pl) { *pc = (char)*pl; }
 
@@ -21,20 +21,22 @@ int main (void)
      mw_replicated_init ((long*)&str_out, (long)malloc (n * sizeof (char)));
 
      // starttiming(); Deprecated
-     lu_profile_perfcntr(PFC_CLEAR, "HELLO WORLD SPAWN CLEARING COUNTERS");
-     // //lu_profile_perfcntr(PFC_READ, "HELLO WORLD SPAWN READING COUNTERS AFTER CLEARING");
-     lu_profile_perfcntr(PFC_START, "HELLO WORLD SPAWN STARTING COUNTERS");
-    
+     lu_profile_perfcntr(PFC_CLEAR, "HELLO WORLD SPAWN AT CLEARING COUNTERS");
+     //lu_profile_perfcntr(PFC_READ, "HELLO WORLD SPAWN AT READING COUNTERS AFTER CLEARING");
+     lu_profile_perfcntr(PFC_START, "HELLO WORLD SPAWN AT STARTING COUNTERS");
+
      for (long k = 0; k < n; ++k)
           ptr[k] = (long)str[k]; // Remote writes
 
-     for (long k = 0; k < n; ++k)
-          cilk_spawn copy_ptr (&str_out[k], &ptr[k]);
+     for (long k = 0; k < n; ++k) {
+          cilk_spawn_at(&ptr[k]) copy_ptr (&str_out[k], &ptr[k]);
+     }
 
      cilk_sync;
 
      printf("%s\n", str_out);  // Migration back
-     lu_profile_perfcntr(PFC_STOP, "HELLO WORLD SPAWN STOPPING COUNTERS AT END");
+    
+     lu_profile_perfcntr(PFC_STOP, "HELLO WORLD SPAWN AT STOPPING COUNTERS AT END");
     
      return 0;
 }
